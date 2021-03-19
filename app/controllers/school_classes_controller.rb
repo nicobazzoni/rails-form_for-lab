@@ -16,7 +16,7 @@ class SchoolClassesController < ApplicationController
 	  @school_class = SchoolClass.new(school_class_params)
 	  
 	  @school_class.save
-		byebug
+	
 	  redirect_to school_class_path(@school_class)
 	end
 
